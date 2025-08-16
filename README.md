@@ -1,2 +1,2 @@
 # test-website
-Pierwsze repo do testów z Codexem
+First repo for test
