@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Skontaktuj się z firmą budowlaną XYZ - formularz, telefon, adres.">
+  <title>Kontakt - Firma Budowlana XYZ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <nav>
+    <a class="logo" href="index.html">XYZ</a>
+    <ul>
+      <li><a href="index.html#o-firmie">O firmie</a></li>
+      <li><a href="oferta.html">Oferta</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html" class="active">Kontakt</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+<h1>Kontakt</h1>
+<section>
+  <form class="contact-form" novalidate>
+    <label for="name">Imię</label>
+    <input type="text" id="name" name="name" aria-label="Imię" required>
+    <label for="email">E-mail</label>
+    <input type="email" id="email" name="email" aria-label="E-mail" required>
+    <label for="message">Wiadomość</label>
+    <textarea id="message" name="message" aria-label="Wiadomość" required></textarea>
+    <button type="submit" class="btn">Wyślij</button>
+    <div id="form-message" role="status" aria-live="polite" tabindex="-1"></div>
+  </form>
+</section>
+<section class="contact-details">
+  <h2>Dane kontaktowe</h2>
+  <p><strong>Adres:</strong> ul. Przykładowa 1, 00-000 Warszawa</p>
+  <p><strong>Telefon:</strong> <a href="tel:+48123456789">+48 123 456 789</a></p>
+  <p><strong>E-mail:</strong> <a href="mailto:info@firma-xyz.pl">info@firma-xyz.pl</a></p>
+  <div class="map">
+    <iframe title="Mapa dojazdu" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.535279495542!2d21.01222831599541!3d52.229675979756396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc6692ea3ed3%3A0x2f73d9b7a6f77089!2sWarszawa!5e0!3m2!1spl!2spl!4v1691500000000!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</section>
+</main>
+<footer>
+  <p>&copy; 2024 Firma Budowlana XYZ</p>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
